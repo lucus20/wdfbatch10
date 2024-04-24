@@ -1,0 +1,36 @@
+/* Pseudo Element (::) */
+
+/*.paragraph{
+	color: blue;
+	font-size: 20px;
+	user-select: none;
+}*/
+
+/*.paragraph::first-line{
+	color: blue;
+	font-size: 20px;
+}*/
+
+/*.paragraph::first-letter{
+	color: blue;
+	font-size: 60px;
+}*/
+
+/*.paragraph::selection{
+	background-color: red;
+	color: black;
+}*/
+
+
+/* important element for css(before & after) */
+.paragraph::before{
+	content: 'ABC ';
+	color: red;
+	font-size: 40px;
+}
+
+.paragraph::after{
+	content: ' EFG';
+	color: red;
+	font-size: 50px;
+}

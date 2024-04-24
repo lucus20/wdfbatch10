@@ -1,0 +1,124 @@
+.bdstyle1{
+	border-style: solid;
+
+}
+.bdstyle2{
+	border-style: double;
+}
+.bdstyle3{
+	border-style: dotted;
+}
+bdstyle4{
+	border-style: dashed;
+}
+.bdstyle5{
+	border-style: inset;
+}
+.bdstyle6{
+	border-style: outset;
+}
+
+
+.borderdesign{
+	width: 300px;
+	height: 300px;
+	background-color: orange;
+
+/*	background: yellow;*/
+/*	background: #144382;*/
+
+/*	border-style: solid;*/
+/*	border-radius: 10%;*/
+/*	border-radius: 150px;*/
+
+/*border-radius: 10px 50px;*/
+/*border-radius: 20px 50px 100px 200px;*/
+	
+/*		bsc	ssc*/
+	border: 3px dashed #05195c;
+
+}
+
+ul{
+/*	list-style-type: none;*/
+/*	list-style: none;*/
+	
+/*	border: 1px solid orange;*/
+/*list-style-type: circle;*/
+}
+
+li{
+/*	list-style-type: none;*/
+/*	list-style: none;*/
+/*	border: 1px solid orange;*/
+
+/*	list-style-type: square;*/
+/*	list-style-type: decimal;*/
+/*	list-style-type: decimal-leading-zero;*/
+	
+
+	border: 1px dotted orange;
+/*	list-style-position: inside;*/
+	list-style-position: outside;
+
+}
+
+/* Attribute selector */
+
+input[type="text"]{
+	width: 300px;
+	background-color: green;
+	color: white;
+	border-radius: 50px;
+}
+
+input[type="passward"],input[type="email"]{
+	background-color: blue;
+	border-radius: 10px;
+}
+
+body{
+/*					uniform resource locator */
+	background-image: url('./../img/fav/logo.png');
+/*	background-repeat: repeat;*/
+	background-repeat: no-repeat;
+
+/*	background-position: center;*/
+/*	background-position: right;*/
+/*	background-position: left;*/
+/*	background-position: top;*/
+/*	background-position: bottom;*/
+
+/*	background-position:  right top;*/
+/*	background-position: right bottom;*/
+
+/*background-attachment: fixed;*/
+/*background-attachment: scroll;*/
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

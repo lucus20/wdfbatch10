@@ -1,0 +1,33 @@
+h2{
+	color: blue;
+}
+
+/*group selector (,)*/
+h3,h4{
+	color: steelblue;
+	font-size: 20px;
+}
+
+
+/*id selector*/
+#myself{
+	color: violet;
+}
+
+#thd,#ygn,i{
+	color: blue;
+}
+
+
+
+/*class selector*/
+.phone1{
+	color: green;
+}
+
+.phone2{
+	color: blue;
+}
+.phone3{
+	color: red;
+}

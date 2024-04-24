@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Template String</title>
+</head>
+<body>
+	<ul>
+		<li>Name : Aung Aung</li>
+		<li>Age : 25</li>
+		<li>Job : Web Developer</li>
+		<li>City : Mandalay</li>
+	</ul>
+
+
+	<script type="text/javascript">
+		
+		// var fullname; //  oki = undefined
+		// let fullname; // oki = undefined
+		// const fullname; //  error becasue can't override
+		// console.log(fullname);
+
+		const name = "honey nway oo";
+		const age = 23;
+		const job = "Model";
+		const city = "yangon";
+
+		let myliststyle;
+		// console.log(myliststyle); // undefined
+
+		// myliststyle = "<h1>Hello World</h1>";
+		// myliststyle = '<h1>hello global</h1>';
+		// myliststyle = `<h1>hello human</h1>`;
+
+
+		console.log(myliststyle);
+
+
+// 		Whithout Tempalte String 
+		myliststyle = "<ul>"+
+							"<li>Name : "+name+"</li>"+
+							"<li>Age : "+age+"</li>"+
+							"<li>Job : "+job+"</li>"+
+							"<li>City : "+city+"</li>"+
+							"</ul>"
+
+		document.write(myliststyle);
+
+
+// 		With Template String ( ` ` )
+		myliststyle = `<ul>
+							<li>Name : ${name}</li>
+							<li>Age : ${age}</li>
+							<li>Job : ${job}</li>
+							<li>City : ${city}</li>
+						</ul>`
+
+		document.write(myliststyle);
+
+
+
+
+	</script>
+
+
+
+
+
+</body>
+</html>

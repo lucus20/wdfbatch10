@@ -1,0 +1,119 @@
+
+/*@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');*/
+@import url('./l17addfile.css');
+
+
+/**{
+	cursor: pointer;
+}*/
+
+.p2{
+	color: red !important;
+	font-size: 50px;
+}
+
+/* local mechine fonts */
+/*body{
+	font-family: arial;
+}*/
+
+/*.p1{
+	font-family: Arial;
+}
+
+.p2{
+	font-family: "Times New Roman";
+}
+
+.p3{
+	font-family: "Times New Roman",Century,Arial;
+}*/
+
+/* global mechine fonts */
+
+/* at rule */
+@font-face{
+	font-family: 'abc';
+	src: url('./../fonts/stick/Stick-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'akaya';
+	src: local('AkayaTelivigala-Regular'),url('./../fonts/akaya/AkayaTelivigala-Regular.ttf') format('woff');
+}
+
+
+
+.p1{
+	font-family: 'abc', sans-serif;
+}
+
+.p2{
+	font-family: "akaya", sans-serif;
+	color: blue !important;
+}
+
+.clickme{
+	text-decoration: none;
+	color: green;
+}
+
+/*pseudo class (:) */
+
+.clickme:hover{
+	text-decoration: underline;
+	font-size: 30px;
+}
+
+.clickme:visited{
+	color: red;
+}
+
+.menutext{
+	font-family: Arial;
+	background: red;
+	text-decoration: none;
+	color: #000;
+
+/*/*     top&bottom  	left&right             
+	padding: 10px 20px;*/
+
+/*           top  right bottom left     */
+	padding: 10px 10px 10px 10px;
+
+border-radius: 10px;
+
+/*	transition: all 2s;
+	transition: background-color 2s;*/
+	transition: background-color 2s, color 5s;
+
+
+}
+.menutext:hover{
+	text-decoration: underline;
+	background-color: orange;
+	color: #fff;
+}
+
+.imgdesign{
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+
+	transition: all 2s;
+
+}
+
+.imgdesign:hover{
+	width: 100px;
+	height: 100px;
+}
+
+
+
+
+
+
+
+

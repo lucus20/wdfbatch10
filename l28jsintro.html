@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js Intro</title>
+</head>
+<body>
+
+	<p>Hay</p>
+
+	<script type="text/javascript">
+		
+		console.log('aung aung');
+		console.log("kyaw kyaw");
+		console.log(`su su`)
+
+		console.log(500);
+		console.log(600);
+
+		console.log('aung aung', "zaw zaw", `mg mg`);
+		console.log(100,200,300);
+		console.log("aung aung", 500);
+
+		console.log(true);
+		console.log(false);
+
+		console.log(10+10); // 20
+		console.log(10+'40'); // 1040 
+
+		console.log(true+true) //2 
+
+		// window.alert("Hello Myanmar");
+		// window.alert("hi");
+		// alert("hello");
+
+
+		// Variable (var / let / const)
+
+			// var/let/const varibalename="value";
+
+		var fullname="Myo Myo";
+		console.log(fullname); // myo myo
+		console.log(fullname); // myo myo
+
+		console.log("my friend name is "+fullname); // my friend name is myo myo
+		console.log('my friend name is'+' '+fullname); // my friend naem is myo myo
+
+
+		// Backticks (` `)
+
+		var lady = "honey nway oo";
+		console.log("we love lady"); //we love lady
+		console.log(`${lady}`); // honey nway oo 
+		console.log(`we love ${lady}`); // we love honey nway oo
+
+
+		var num1 = 100
+		const num2 = 200
+		console.log(num1);
+		console.log(num2);
+		console.log(num1,num2);
+		console.log(num1+num2); //300
+
+		console.log("num1+num2"); //num1num2
+		console.log('num1+num2'); //num1num2
+
+		console.log(`${num1}+${num2}`); // 100+200
+		console.log(`${num1}`+`${num2}`); // 100200
+		console.log(`${num1+num2}`); //300
+
+		// overside or overwrite
+
+		var num3 = 30;
+		var num4 = 40;
+
+		console.log("num3 value is = "+num3); // num3 value is = 30
+		console.log("num4 value is = "+num4); // num4 value is = 40
+		console.log(num3+num4); //70
+
+		num3 = 50;
+		console.log("num3 value is = "+num3); // num3 value is = 50
+		console.log(num3+num4); // 90
+
+		let num5 = 50;
+		console.log(num5); // 50
+
+		num5 = 500;
+		console.log(num5); // 500
+
+		num5 = 5000;
+		console.log(num5); // 5000
+
+		const num6 = 60;
+		console.log(num6); // 60
+
+		// num6 = 600;
+		// console.log(num6); // uncaught typeerror: assignment to constant variable
+
+
+		// special escape characters ( \ )
+
+		console.log("hay i am working. do you see now.");
+		console.log("hay i am 'working'. do you see now.");
+		
+		let x = 'he\'s U Ba.';
+		let y = "he's my \"uncle\".";
+
+		console.log(`${x} ${y}`); //he is U Ba he is my uncle
+
+		document.write(`${x} ${y}`);
+
+
+
+
+
+
+
+
+
+	</script>
+
+</body>
+</html>
+
+
+<!-- js integrate with HTML
+	internal
+	external
+	inline
+ -->
+
+ <!-- Variablen name
+	we can use 
+	letter,number,_,$
+
+	$firstname = "tin htut" (for php)
+	firstname = "tin htut" (for python)
+
+	var firstname = "tin ye"  ( recommend to uses)
+	var FirstName = "tin ye"
+	var first_name
+	var $firstname
+	var name1		(recommend)
+
+
+	** we can't name **
+	var first name
+	var first-name
+	var @firstname
+	var 2name
+
+ -->

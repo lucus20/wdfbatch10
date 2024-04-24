@@ -1,0 +1,62 @@
+.firstdiv{
+	width: 200px;
+	height: 200px;
+/*	background-color: #0f1b73;*/ 
+	background-color: rgba(194, 15, 108, 0.8);
+ 
+ color: #fff;
+ font-size: 20px;
+
+}
+
+.seconddiv{
+	width: 600px;
+	height: 600px;
+/*	background-color: orange;*/
+	background: url(./../img/fav/img2.jpg);
+/*	background-repeat: no-repeat;*/
+/*	background-repeat: repeat;*/
+/*	background-repeat: repeat-x;*/
+	background-repeat: repeat-y;
+
+
+	border: 1px solid green;
+	color: red;
+
+	background-position: center;
+
+}
+
+.thirddiv{
+	width: 300px;
+	height: 300px;
+
+	border: 1px solid red;
+
+/*	background: linear-gradient(red,green,orange,blue);*/
+	background: linear-gradient(#0b1e9c,#e6460b);
+	background: linear-gradient(
+		-56deg,
+		red,
+		green,
+		blue
+	);
+
+}
+
+.fourthdiv{
+	width: 300px;
+	height: 300px;
+	border: 1px solid green;
+	color: orange;
+
+/*	background-image:url(./../img/fav/img1.jpg),linear-gradient(green,red);*/
+	background-repeat: no-repeat;
+
+	background: linear-gradient(
+		45deg,
+		rgba(224, 48, 36, 0.7),
+		rgba(107, 16, 192, 0.8)),
+	url(./../img/fav/img1.jpg);
+
+}
